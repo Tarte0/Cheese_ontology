@@ -1,0 +1,1322 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#"
+     xml:base="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <owl:Ontology rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#sameAs"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/depiction"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Beaufort -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Beaufort">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Bleu"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Brie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Camembert"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Cantal"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Comté"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Beaufort_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/Z6i2cKw.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Bleu -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Bleu">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Brie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Camembert"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Cantal"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Comté"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Bleu_d%27Auvergne</owl:sameAs>
+        <skos:prefLabel xml:lang="en">Blue cheese</skos:prefLabel>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/QiegymT.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Brie -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Brie">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Camembert"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Cantal"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Comté"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Brie_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/8QIKYv0.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Camembert -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Camembert">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Cantal"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Comté"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Camembert</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/JueLVhL.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Cantal -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Cantal">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Comté"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Cantal_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/0UdjSYG.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Comté -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Comté">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Comt%C3%A9_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/hG5OdYY.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Demi-sel_(fromage)</owl:sameAs>
+        <skos:prefLabel xml:lang="en">Half-salted</skos:prefLabel>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/Qsc7lVt.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Emmental">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Emmental</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/PlScIf7.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Fontainebleau_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/VGRR6Tm.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage">
+        <skos:prefLabel xml:lang="en">Cheese</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Fresh cheese category</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Fromage à pâte fraîche</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Lactic acidification made cheese</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <skos:prefLabel xml:lang="en">Renet action made cheese</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="fr">Fromage à pâte pressée</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Pressed cheese category</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Renet action made cheese with cutting and stirring</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <skos:prefLabel xml:lang="fr">Fromage à pâte molle</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Renet action made cheese with slow 
+draining and cutting</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Soft cheese category</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cheese</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cooked cheese</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cooked cheese with washed rind</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_sans_cuisson">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard uncooked cheese</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_avec_affinage">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Fresh cheese with ripening</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_acidification_lactique"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Fresh cheese</skos:prefLabel>
+        <skos:prefLabel xml:lang="en">Fresh cheese without ripening</skos:prefLabel>
+        <skos:prefLabel xml:lang="fr">Fromage frais</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Soft cheese with mold surface</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_avec_découpage_et_brassage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Uncooked pressed cheese</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Uncooked pressed cheese with washed rind</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Uncooked pressed cheese with mold surface</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cooked cheese with openings</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_morgée">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cooked cheese with openings and smeared rind</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture_et_croute_sèche">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cooked cheese with openings and dry rind</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_avec_cuisson"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cooked cheese without openings</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture_et_croute_morgée">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_pressée_avec_cuisson_et_sans_ouverture"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Hard cooked cheese without openings and smeared rind</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <skos:prefLabel xml:lang="en">Soft cheese with washed rind</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <skos:prefLabel xml:lang="en">Soft cheese with internal molds</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Laguiole">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Laguiole_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/n5NDw1D.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/EXhWPrr.png</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Maroilles_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/4xSd04F.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Munster_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/axAAlb6.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_fraiche_sans_affinage"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Petit-suisse</owl:sameAs>
+        <skos:prefLabel xml:lang="en">Yoghurt</skos:prefLabel>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/zermvMW.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Port-Salut_(marque_fromag%C3%A8re)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/HW6K48a.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Reblochon</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/Rt0nbSw.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Roquefort">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Roquefort_(fromage)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/yd9Thtw.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_lavée"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Saint-paulin_(marque)</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/RBXLwLD.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-nectaire">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Saint-nectaire</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/RBZz718.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Tomme_de_Savoie">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_non_ferme_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Tomme_de_Savoie</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/70bVt7V.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_à_pâte_molle_et_croute_moisie"/>
+        <owl:disjointWith rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Carr%C3%A9_de_l%27Est</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/WeaaouD.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque -->
+
+    <owl:Class rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque">
+        <rdfs:subClassOf rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_croute_lavée"/>
+        <owl:sameAs rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://fr.wikipedia.org/wiki/Pont-l%27%C3%A9v%C3%AAque</owl:sameAs>
+        <foaf:depiction rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://i.imgur.com/yujEITo.jpg</foaf:depiction>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Bleu_d&apos;Auvergne -->
+
+    <owl:NamedIndividual rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Bleu_d&apos;Auvergne">
+        <rdf:type rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Bleu"/>
+        <rdf:type rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage"/>
+        <rdf:type rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure"/>
+        <rdf:type rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_fait_par_action_de_la_présure_égoutté_lentement_avec_simple_découpage"/>
+        <rdf:type rdf:resource="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fromage_â_pâte_molle_et_moisissure_internes"/>
+        <skos:prefLabel xml:lang="en">Avergne blue chees</skos:prefLabel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Brie"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Camembert"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Carré_de_l&apos;est"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Demi-sel"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Fontainebleau"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Petit_suisse"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Livarot"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Maroilles"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Munster"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Pont-l&apos;évêque"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Port-salut"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Reblochon"/>
+            <rdf:Description rdf:about="https://tarte0.github.io/Cheese_ontology/cheese_ontology.owl.xml#Saint-Paulin"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
